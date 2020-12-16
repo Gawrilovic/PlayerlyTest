@@ -23,7 +23,7 @@ namespace Playerly
             Driver.Manage().Window.Maximize();
 
             homepage.SignIn();
-            loginpage.InsLogPass("gawrilovic@o2.pl", "MrzegorzGierzwa4$");
+            loginpage.InsLogPass("gawrilovic@o2.pl", "xxx$");
             loginpage.ClickSignIn();
             homepage.GoIns();
         }
